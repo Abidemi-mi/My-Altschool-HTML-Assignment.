@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Application Form</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <main>
+      <aside class="left">
+        <nav class="top-nav">
+          <a href="/HTML Assignment 1/index.html">Go to my Profile</a>
+        </nav>
+        <div class="img-container">
+          <img style="width: 450px" src="./academic_zzg4hi.webp" alt="" />
+          <h1>
+            Learn highly sought after <br />
+            skills without hassle.
+          </h1>
+        </div>
+
+        <nav>
+          <ul>
+            <li>
+              <a href="https://twitter.com/yourprofile" target="_blank">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://instagram.com/yourprofile" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://facebook.com/yourprofile" target="_blank">
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="linkedin.com/in/yourprofile" target="_blank">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <footer>
+          <strong>
+            <p>&copy;2024 Altschool Africa. All right reserved.</p></strong
+          >
+        </footer>
+      </aside>
+
+      <section class="section1">
+        <p class="p1">
+          Already an AltSchooler? <a href="singin.html">Sign In!</a>
+        </p>
+
+        <header>
+          <h2>Signup</h2>
+          <p>Take the next steps to apply at AltSchool Africa</p>
+        </header>
+
+        <div class="form-wrapper">
+          <form action="">
+            <div class="name-wrapper mobile" >
+              <div class="f-name">
+                <label for="name">First Name</label> <br />
+                <input type="text" placeholder="Enter first name" required />
+              </div>
+
+              <div class="l-name">
+                <label for="name">Last Name</label> <br />
+                <input type="text" placeholder="Enter last name" required />
+              </div>
+            </div>
+
+            <div class="gender-dob-wrapper mobile">
+              <div class="select-gender">
+                <label for="gender">Gender</label> <br />
+                <select name="gender" id="gender" required>
+                  <option value="#">Select gender</option>
+                  <option value="male">male</option>
+                  <option value="female">female</option>
+                </select>
+              </div>
+
+              <div class="dob">
+                <label for="dob">Date of Birth</label>
+                <br />
+                <input type="date" id="dob" name="dob" required />
+              </div>
+            </div>
+
+            <div class="email-phone-wrapper mobile">
+              <div class="email">
+                <label for="name">Enter Address</label> <br />
+                <input type="text" placeholder="Enter email address" required />
+              </div>
+
+              <div class="phone">
+                <label for="phone">Phone Number</label>
+                <br />
+                <input
+                  type="tel"
+                  placeholder="08154387000"
+                  id="phone"
+                  name="phone"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="residence-wrapper mobile">
+              <div class="select-country">
+                <label for="gender">Country</label> <br />
+                <select name="country" id="country">
+                  <option value="#">Select your country</option>
+                  <option value="nigeria">Nigeria</option>
+                  <option value="ghana">Ghana</option>
+                  <option value="kenya">Kenya</option>
+                </select>
+              </div>
+
+              <div class="state">
+                <label for="sor">State/City of Residence</label>
+                <br />
+                <textarea
+                  name="sor"
+                  id="sor"
+                  rows="1"
+                  placeholder="Enter your state of Residence"
+                >
+                </textarea>
+              </div>
+            </div>
+
+            <div class="hear-about-us">
+              <label for="hear-about-us">How did you hear about us?</label>
+              <select name="hear-about-us" id="hear-about-us">
+                <option value="#">Select channel</option>
+                <option value="linkedin">Linkedin</option>
+                <option value="facebook">Facebook</option>
+                <option value="instagram">Instagram</option>
+                <option value="x">X</option>
+              </select>
+            </div>
+
+            <div class="password-wrapper mobile">
+              <div class="password">
+                <label for="password">Password</label>
+                <br />
+                <div class="input-wrap">
+                  <input
+                    class="input-1"
+                    type="password"
+                    required
+                    placeholder="Enter password"
+                  />
+                  <i class="fa-solid fa-eye-slash"></i>
+                </div>
+              </div>
+
+              <div class="password">
+                <label for="password">Confirm Password</label>
+                <br />
+                <div class="input-wrap">
+                  <input
+                    class="input-1"
+                    type="password"
+                    required
+                    placeholder="Enter password again"
+                  />
+                  <i class="fa-solid fa-eye-slash"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="terms-of-use">
+              <p>
+                By clicking continue, I agree to
+                <a href="#">Terms of Use</a>
+                and acknowledge that I have read the
+                <a href="#">Privacy Policy.</a>
+              </p>
+            </div>
+
+            <button type="submit">
+              Submit <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

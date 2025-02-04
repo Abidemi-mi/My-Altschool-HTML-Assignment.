@@ -1,0 +1,35 @@
+**{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+       margin-top: 20px;
+}
+
+nav a{
+    padding: 5px 15px;
+    background-color:black;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 50px auto;
+ }
+
+ thead tr{
+    background-color:#4CAF50; color: white;
+ }
+
+th, td{
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}     

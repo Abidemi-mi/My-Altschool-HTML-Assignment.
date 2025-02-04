@@ -1,0 +1,142 @@
+**{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+   font-family: Arial, sans-serif;
+   width: 100%;
+   height: 100%;
+}
+
+nav{
+       margin-top: 10px;
+}
+
+nav a{
+    padding: 5px 15px;
+    background-color:black;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+.about-me {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+ 
+.text{
+    background-color: rgb(235, 230, 230);
+}
+
+.about-me section h1 {
+    margin:0px;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.about-me section p{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.about-me .goals{
+    margin-top:0px;
+}
+
+.about-me .goals h2{
+    margin: 0px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.about-me .goals p{
+     text-align: center;
+    font-size: 16px;
+}
+
+.figure{
+  margin-top: 3rem;
+}
+
+.skill-title{
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 2px;
+}
+
+.pictures{
+ width: 100%;
+margin-top: 3em;  
+}
+
+figure img{
+     width: 100%;
+}
+
+.video {
+ width: 100%;
+margin-top: 3em;
+  
+}
+
+.audio{
+    width: 100%;
+    margin-top: 3em;
+    margin-bottom: 4em;
+}
+
+.social-media {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-media li {
+    margin-right: 20px;
+    padding-left: 15px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+    margin-top: 1em;
+}
+
+
+
+
+
+
+

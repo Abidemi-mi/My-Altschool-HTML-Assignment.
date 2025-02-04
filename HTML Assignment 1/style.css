@@ -1,0 +1,283 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+
+    header p{
+        margin: 0;
+        font-size: 1.4em;
+        margin-top: 0.6em;
+    }
+
+    header h1{
+        line-height: 1.1em;
+        font-size: 2.5em;
+        margin: 0;
+    }
+    header, footer {
+      background: #0073e6;
+      color: white;
+      text-align: center;
+      padding: 20px 0px 0px 0px;
+      width: 100%;
+      height: fit-content;
+      margin: 0;
+    }
+
+    nav ul, li{
+        margin: 0;
+        list-style: none;
+    }
+
+    nav ul{
+        margin-top: 10px;
+    }
+    nav {
+      background: #f0f0f0;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      text-decoration: none;
+      color: #0073e6;
+      margin: 0px 10px;
+      font-weight: bold;
+    }
+
+    nav a:hover{
+        color: #333;
+    }
+    .container {
+      display: flex;
+      flex-direction: row;
+      justify-content:space-between;
+      max-width: 100%;
+      margin: 10px auto;
+      padding: 10px;
+    }
+
+    .container .about-me, p{
+        margin: 0;
+        font-size: 1em;
+    }
+   
+    .container .left{
+        flex: 2;
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .container .left .about-me{
+      align-items: center;
+      
+    }
+
+     .container .left .about-me h2, .name, span{
+        text-align: center;
+        margin: 0;
+     }
+
+      .container .left .about-me h2{
+        font-size: 2.2em;
+          color: #0073e6;
+      }
+
+       .container .left .about-me .name{
+        font-size: 1.2em;
+       }
+
+    .container .left .about-me, span, .program, .biography, .goals{
+        text-align: center;
+        margin: 0;
+        }
+
+        .goals h2{
+            margin: 0;
+        }
+
+    span{
+        color: #0073e6;
+        font-size: 1.5em;
+        margin: 0;
+        text-transform: uppercase;
+    }    
+
+    .container .right{
+        flex: 1;
+        display: flex;
+        align-items: center;
+        background-color: #fff;
+        margin: 0;
+        border-radius: 10px;
+    }
+
+    .container .right img{
+        width: 400px;
+       border-radius: 50px 100px 50px;
+        margin-bottom: 7em;;
+    
+    }
+
+    section {
+      margin-bottom: 20px;
+    }
+    #top-link {
+      display: block;
+      text-align: center;
+      margin: 20px auto;
+      padding: 10px;
+      background-color: #0073e6;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      width: 100px;
+    }
+    #top-link:hover {
+      background-color: #005bb5;
+    }
+
+    #box{   
+        max-width: 70%;
+        margin: 0.2em auto;
+        padding: 10px;
+        border-radius: 20px;
+        border: 1px solid #ddd;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    @media screen and (max-width:768px) {
+       body{
+        width: 100%;
+       }
+
+       header{
+        padding: 5px;
+       }
+
+       header h1{
+        font-size: 1.9em;
+        line-height: normal;
+       }
+
+       header p{
+        margin-top: 0.3em;
+       }
+
+       nav{
+        background-color:#f0f0f0 ;
+        padding: 5px;
+        width: 100%;
+        height: fit-content;
+       }
+
+       nav ul{
+        margin: 0;
+       }
+
+       nav ul li, a{
+        list-style: none;
+       }
+
+
+
+      .wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        width: 98%;
+      }
+
+      .wrapper .container{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .container .left{
+        display: flex;
+        flex-direction: center;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .container .right{
+       height: fit-content;
+        margin-top: 1.3em;
+      }
+
+
+      .container .right img{
+        width: 300px;
+        margin: 0;
+      }
+
+      .container .about-me h2, .program{
+        line-height: normal;
+
+      }
+      #box{   
+        max-width: 70%;
+        margin: 0.2em auto;
+        padding: 10px;
+        border-radius: 10px;
+        border: 1px solid #ddd;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    }
+
+
+    @media screen and (min-width:768px) and (max-width:1024px) {
+      .wrapper{
+      }
+
+      .container .right{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .container .right img{
+        margin: 0;
+        width: 300px;
+      }
+
+      header{
+        padding: 5px;
+       }
+
+       header h1{
+        font-size: 1.9em;
+        line-height: normal;
+       }
+
+       header p{
+        margin-top: 0.3em;
+       }
+
+       nav{
+        background-color:#f0f0f0 ;
+        padding: 5px;
+        width: 100%;
+        height: fit-content;
+       }
+
+       nav ul{
+        margin: 0;
+       }
+
+       nav ul li, a{
+        list-style: none;
+       }
+    }

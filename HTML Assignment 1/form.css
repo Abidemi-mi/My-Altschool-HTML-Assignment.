@@ -1,0 +1,396 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif, Arial, Helvetica;
+}
+
+main {
+  background-color: #f9f9f9;
+  color: #333;
+  font-family: Arial, sans-serif;
+  width: 100%;
+  max-width: 100;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.left {
+  background-color: rgb(250, 248, 244);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.left .top-nav {
+  align-self: normal;
+  margin-bottom: 6rem;
+  margin-left: 20px;
+}
+
+.left .top-nav a {
+  text-decoration: none;
+  background-color: #0f6ce7;
+  padding: 5px 10px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.left .top-nav a:hover {
+  color: wheat;
+}
+
+.left img {
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.left h1 {
+  margin-bottom: 1rem;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+.left footer p {
+  text-align: center;
+  font-size: 16px;
+}
+
+.section1 {
+  background-color: white;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 0 1.6em;
+}
+
+.section1 .p1 {
+  width: 100%;
+  text-align: end;
+  margin-top: 1.3rem;
+  width: 90%;
+}
+
+.section1 .p1 a {
+  text-decoration: none;
+}
+
+.section1 header {
+  width: 100%;
+}
+
+.section1 header h2 {
+  margin-top: 0.7em;
+  font-size: 33px;
+  color: #333;
+}
+
+.section1 header p {
+  margin-top: 1rem;
+  color: gray;
+}
+
+.form-wrapper {
+  margin: 0 auto;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.form-wrapper .name-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+  margin-bottom: 25px;
+}
+
+.form-wrapper .name-wrapper .f-name {
+  width: 50%;
+}
+
+.form-wrapper .name-wrapper .l-name {
+  width: 50%;
+}
+
+label {
+  font-size: 14px;
+  color: #000;
+}
+
+label {
+  display: inline-block;
+}
+
+input {
+  width: 100%;
+  padding: 11px;
+  border: 0.1px gray solid;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.form-wrapper .gender-dob-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+  margin-bottom: 25px;
+}
+
+.form-wrapper .gender-dob-wrapper .select-gender {
+  width: 50%;
+}
+
+.form-wrapper .gender-dob-wrapper .dob {
+  width: 50%;
+}
+
+.form-wrapper .gender-dob-wrapper .select-gender select {
+  width: 100%;
+  padding: 11px;
+  border: 0.1px gray solid;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.form-wrapper .email-phone-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+  margin-bottom: 25px;
+}
+
+.form-wrapper .email-phone-wrapper .email {
+  width: 50%;
+}
+
+.form-wrapper .email-phone-wrapper .phone {
+  width: 50%;
+}
+
+.form-wrapper .residence-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+  margin-bottom: 25px;
+}
+
+.form-wrapper .residence-wrapper .select-country {
+  width: 50%;
+}
+
+.form-wrapper .residence-wrapper .state {
+  width: 50%;
+}
+
+.form-wrapper .residence-wrapper .select-country select {
+  width: 100%;
+  padding: 11px;
+  border: 0.1px gray solid;
+  border-radius: 5px;
+  margin-top: 1px;
+}
+
+.form-wrapper .residence-wrapper .state textarea {
+  width: 100%;
+  border: 0.1px gray solid;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 13px;
+}
+
+.form-wrapper .about-us {
+  width: 100%;
+}
+
+.form-wrapper .about-us label {
+  display: block;
+}
+
+.form-wrapper .hear-about-us select {
+  width: 100%;
+  border: 0.1px gray solid;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 13px;
+  margin-bottom: 25px;
+}
+
+.form-wrapper .password-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+  margin-bottom: 25px;
+}
+
+.form-wrapper .password-wrapper .password {
+  width: 50%;
+}
+
+.form-wrapper .password-wrapper .password .input-wrap {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: 0.1px gray solid;
+  border-radius: 5px;
+  gap: 5px;
+  outline-color: #0f6ce7;
+  transition: border-color 0.3s ease;
+  padding-right: 5px;
+  margin-top: 10px;
+}
+
+.form-wrapper .password-wrapper .password .input-wrap .input-1 {
+  padding: 11px;
+  margin: 0px;
+  border: none;
+  flex: 1;
+  outline: none;
+}
+
+.form-wrapper .password-wrapper .password .input-wrap .input-1 i {
+  padding-right: 25px;
+}
+
+.form-wrapper .password-wrapper .password .input-wrap:focus-within {
+  border: 2px #0f6ce7 solid;
+}
+
+.form-wrapper .terms-of-use {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.form-wrapper .terms-of-use p {
+  font-size: 16px;
+  color: gray;
+  line-height: 1.5rem;
+  word-spacing: 0.1rem;
+}
+
+.form-wrapper .terms-of-use p a {
+  text-decoration: none;
+  color: #1877f2;
+}
+
+.form-wrapper button {
+  width: 100%;
+  background-color: #0f6ce7;
+  color: white;
+  padding: 15px;
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.form-wrapper button i {
+  margin-left: 15px;
+}
+
+/* MEDIA QUERRY */
+@media only screen and (max-width: 768px) {
+  main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .section1 .p1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .section1 header {
+    width: 100%;
+    margin-bottom: 2em;
+  }
+
+  .left {
+    display: none;
+  }
+
+  .form-wrapper {
+    margin: 0 auto;
+  }
+  .form-wrapper .mobile {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .form-wrapper .mobile input {
+    width: 100%;
+  }
+
+  .form-wrapper .name-wrapper .f-name {
+    width: 100%;
+  }
+
+  .form-wrapper .name-wrapper .l-name {
+    width: 100%;
+  }
+
+  .form-wrapper .gender-dob-wrapper .select-gender {
+    width: 100%;
+  }
+
+  .form-wrapper .gender-dob-wrapper .dob {
+    width: 100%;
+  }
+
+  .form-wrapper .email-phone-wrapper .email {
+    width: 100%;
+  }
+
+  .form-wrapper .email-phone-wrapper .phone {
+    width: 100%;
+  }
+
+  .form-wrapper .residence-wrapper .select-country {
+    width: 100%;
+  }
+
+  .form-wrapper .residence-wrapper .state {
+    width: 100%;
+  }
+
+  .form-wrapper .password-wrapper .password {
+    width: 100%;
+  }
+}
